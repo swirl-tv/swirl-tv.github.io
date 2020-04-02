@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="60px" height="59px" viewBox="0 0 60 59" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <defs>
+    <rect width="59.9999962" height="59" id="artboard_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#artboard_1" clip-rule="evenodd" />
+    </clipPath>
+  </defs>
+  <g id="Artboard" clip-path="url(#clip_1)">
+    <use xlink:href="#artboard_1" stroke="none" fill="#FFFFFF" />
+    <g id="Share" transform="matrix(-4.371139E-08 1 -1 -4.371139E-08 52 7)">
+      <path d="M0 0L10 18.5" transform="translate(12 16)" id="New-shape" fill="none" stroke="#FF2E63" stroke-width="9" stroke-linecap="round" />
+      <path d="M0 0L10 18.5" transform="matrix(-1 0 0 1 32 16)" id="New-shape-2" fill="none" stroke="#FF2E63" stroke-width="9" stroke-linecap="round" />
+      <path d="M0 7.5C0 3.35786 3.35786 0 7.5 0C11.6421 0 15 3.35786 15 7.5C15 11.6421 11.6421 15 7.5 15C3.35786 15 0 11.6421 0 7.5Z" id="Ellipse" fill="none" stroke="#FF2E63" stroke-width="6" />
+      <path d="M0 7.5C0 3.35786 3.35786 0 7.5 0C11.6421 0 15 3.35786 15 7.5C15 11.6421 11.6421 15 7.5 15C3.35786 15 0 11.6421 0 7.5Z" transform="translate(29 0)" id="Ellipse-2" fill="none" stroke="#FF2E63" stroke-width="6" />
+      <path d="M0 7.5C0 3.35786 3.35786 0 7.5 0C11.6421 0 15 3.35786 15 7.5C15 11.6421 11.6421 15 7.5 15C3.35786 15 0 11.6421 0 7.5Z" transform="translate(15.00006 30)" id="Ellipse-3" fill="#FFFFFF" stroke="#FF2E63" stroke-width="6" />
+    </g>
+  </g>
+</svg>

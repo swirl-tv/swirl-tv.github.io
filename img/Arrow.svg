@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="37px" height="28px" viewBox="0 0 37 28" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <defs>
+    <rect width="37" height="28" id="artboard_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#artboard_1" clip-rule="evenodd" />
+    </clipPath>
+  </defs>
+  <g id="Arrow" clip-path="url(#clip_1)">
+    <use xlink:href="#artboard_1" stroke="none" fill="#FFFFFF" />
+    <g id="Arrow" transform="translate(8 9)">
+      <path d="M0 0L9.5 9.5" id="New-shape" fill="none" stroke="#FF2E63" stroke-width="9" stroke-linecap="round" />
+      <path d="M0 0L9.5 9.5" transform="matrix(-1 0 0 1 19.5 0)" id="New-shape-2" fill="none" stroke="#FF2E63" stroke-width="9" stroke-linecap="round" />
+    </g>
+  </g>
+</svg>
