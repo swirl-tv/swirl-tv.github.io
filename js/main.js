@@ -32,7 +32,7 @@ $(function () { // wait for document ready
         for (var i=0; i<streamers.length; i++) {
             new ScrollMagic.Scene({
                 triggerElement: slides[0],
-                offset:250*(i+1)
+                offset:80*(i+1)
             })
             // trigger animation by adding a css class
             .setClassToggle(streamers[i], "visible")
@@ -42,7 +42,7 @@ $(function () { // wait for document ready
         }
         new ScrollMagic.Scene({
             triggerElement: slides[0],
-            offset:900
+            offset:600
         })
         // trigger animation by adding a css class
         .setClassToggle(".streamers > h3", "visible")

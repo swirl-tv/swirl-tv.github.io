@@ -304,6 +304,7 @@ input:focus{
 }
 .btn:hover {
   text-decoration: none;
+  cursor: pointer;
 }
 .btn.primary {
   background-color: #FF2E63;
@@ -319,7 +320,7 @@ header {
   height: 100px;
 }
 header img {
-  height:62px;
+  height:45px;
 }
 
 section {
