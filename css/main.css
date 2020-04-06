@@ -372,6 +372,7 @@ section {
 footer {
   position: relative;
   z-index: 100;
+  padding-top:200px;
 }
 
 #gray-box {
