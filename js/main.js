@@ -14,7 +14,7 @@ $(function () { // wait for document ready
             new ScrollMagic.Scene({
                     triggerElement: slides[i],
                     triggerHook: 'onLeave',
-                    duration: "80%" // this works just fine with duration 0 as well
+                    duration: "40%" // this works just fine with duration 0 as well
                 })
                 .setPin(slides[i], {pushFollowers: false})
                 //.addIndicators() // add indicators (requires plugin)
