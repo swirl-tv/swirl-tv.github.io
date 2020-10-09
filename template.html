@@ -1,0 +1,29 @@
+<html>
+
+<head><script src="js/vendor/openvidu-browser-2.15.0.min.js"></script></head>
+
+<body>
+    <div id="videos"></div>
+    <div>hejsan</div>
+</body>
+
+<script>
+    var url = new URL(window.location.href);
+    var SESSION_ID = url.searchParams.get('sessionId');
+    var SECRET = url.searchParams.get('secret');
+    var OVSERVER = url.searchParams.get('ovServer');
+    var TOKEN = 'wss://' + OVSERVER + '?sessionId=' + SESSION_ID + '&secret=' + SECRET + '&recorder=true';
+
+    var OV = new OpenVidu();
+    var session = OV.initSession();
+
+    session.on('streamCreated', (event) => {
+        session.subscribe(event.stream, 'videos');
+    });
+
+    session.connect(TOKEN)
+        .then(() => { console.log('Recorder participant connected') })
+        .catch(error => { console.error(error) });
+</script>
+
+</html>
