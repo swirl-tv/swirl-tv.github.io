@@ -325,6 +325,11 @@ header img {
 header a {
   margin-left:20px;
 }
+header p {
+  margin:0;
+  line-height: 45px;
+  display: inline-block;
+}
 
 section {
   height:130vh;
@@ -336,6 +341,10 @@ section {
 }
 .hero h1 {
   font-size: 5rem;
+}
+.hero p {
+  font-size: 2rem;
+  max-width: 800px;
 }
 
 .float-up-down {
@@ -375,7 +384,16 @@ section {
 footer {
   position: relative;
   z-index: 100;
-  padding-top:200px;
+  padding-top:58px;
+  border-top:1px solid #D1D2D7;
+}
+footer p {
+  font-size: 1rem;
+  margin-top:8px;
+  margin-bottom:8px;
+}
+footer .logo {
+  width: 120px;
 }
 
 #gray-box {
@@ -528,7 +546,9 @@ footer {
   .hero h1 {
     font-size: 2.5rem;
     line-height: 1.2;
-    text-align: right;
+  }
+  .hero p {
+    font-size: 1.2rem;
   }
   .hide-sm {
     display: none !important;
