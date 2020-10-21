@@ -317,17 +317,19 @@ input:focus{
 }
 
 header {
-  height: 100px;
+  height: 80px;
 }
 header img {
-  height:45px;
+  height:32px;
+  margin-top:16px;
+  margin-bottom:16px;
 }
 header a {
   margin-left:20px;
 }
 header p {
   margin:0;
-  line-height: 45px;
+  line-height: 64px;
   display: inline-block;
 }
 
@@ -337,7 +339,7 @@ section {
 }
 
 .hero {
-  height: calc(100vh - 100px);
+  min-height: calc(100vh - 80px);
 }
 .hero h1 {
   font-size: 5rem;
@@ -535,7 +537,7 @@ footer .logo {
 
 @media screen and (max-width: 600px) { 
   header img {
-    height:45px;
+    height:35px;
   }
   header {
     height:61px;
