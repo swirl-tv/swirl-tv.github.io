@@ -317,7 +317,7 @@ input:focus{
 }
 
 header {
-  height: 80px;
+  min-height: 80px;
 }
 header img {
   height:32px;
@@ -342,11 +342,17 @@ section {
   min-height: calc(100vh - 80px);
 }
 .hero h1 {
-  font-size: 5rem;
+  margin-top:1.83em;
+  font-size: 3.5rem;
+  line-height: 3.75rem;
+  max-width: 600px;
 }
 .hero p {
-  font-size: 2rem;
-  max-width: 800px;
+  font-size: 1.5rem;
+  max-width: 600px;
+}
+.hero .action-area {
+  margin-top:64px;
 }
 
 .float-up-down {
@@ -547,11 +553,15 @@ footer .logo {
     height: auto;
   }
   .hero h1 {
+    margin-top:0.83em;
     font-size: 2.5rem;
     line-height: 1.2;
   }
   .hero p {
     font-size: 1.2rem;
+  }
+  .hero .action-area {
+    margin-top:0px;
   }
   .hide-sm {
     display: none !important;
