@@ -19,8 +19,8 @@ body {
 /* ROOT FONT STYLES */
 
 * {
-  font-family: 'Noto Sans', sans-serif;
-  font-weight: 400;
+  font-family: 'Noto-Sans-Light', sans-serif;
+  font-weight: normal;
   color: #1A1D38;
   line-height: 1.5;
   -webkit-box-sizing: border-box;
@@ -31,31 +31,37 @@ body {
 /* TYPOGRAPHY */
 
 h1 {
+  font-family: 'Noto Sans', sans-serif;
   font-size: 2.5rem;
   font-weight: 700;
 }
 
 h2 {
+  font-family: 'Noto Sans', sans-serif;
   font-size: 2rem;
   font-weight: 700;
 }
 
 h3 {
+  font-family: 'Noto Sans', sans-serif;
   font-size: 1.375rem;
   font-weight: 700;
 }
 
 h4 {
+  font-family: 'Noto Sans', sans-serif;
   font-size: 1.125rem;
   font-weight: 700;
 }
 
 h5 {
+  font-family: 'Noto Sans', sans-serif;
   font-size: 1rem;
   font-weight: 700;
 }
 
 h6 {
+  font-family: 'Noto Sans', sans-serif;
   font-size: 0.875rem;
   font-weight: 700;
 }
