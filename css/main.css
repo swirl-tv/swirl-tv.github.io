@@ -12,9 +12,9 @@
    ========================================================================== */
 
 html {
-  color: #1A1D38;
-  font-size: 1em;
-  line-height: 1.4;
+  color: #3B3D4F;
+  font-size: 1rem;
+  line-height: 1.625rem;
 }
 
 /*
@@ -403,6 +403,10 @@ footer p {
 }
 footer .logo {
   width: 120px;
+}
+footer h5 {
+  color:#D1D2D7;
+  font-size: 14px;
 }
 
 #gray-box {
