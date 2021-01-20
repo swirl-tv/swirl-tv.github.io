@@ -10,6 +10,13 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+:root {
+    --ipt-size: 60px;
+    --clr-ipt-border: #F6F6FA;
+    --clr-ipt-label: #8C8E9B;
+    --clr-ipt-bg: #F6F6FA;
+    --clr-ipt-focus: #D1D2D7;
+}
 
 html {
   color: #3B3D4F;
@@ -340,19 +347,6 @@ textarea {
   }
 }
 
-input:not([type=submit]) {
-  padding: 30px;
-  width: 100%;
-  border:none;
-  border-bottom: 2px #1A1D38 solid;
-  outline: none !important;
-  color:#1A1D38;
-}
-
-input:focus{
-  outline: none;
-}
-
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
   color: #D1D1DA;
   opacity: 1; /* Firefox */
@@ -607,7 +601,7 @@ footer h5 {
   position: relative;
 }
 
-#mc_embed_signup .mc-field-group > label {
+/* #mc_embed_signup .mc-field-group > label {
   position: absolute;
   margin-left:30px;
   margin-top:27px;
@@ -618,7 +612,7 @@ footer h5 {
   margin-top:-10px;
   margin-left: 0;
   font-size: 12px;
-}
+} */
 
 .show-sm {
   display: none;
@@ -755,4 +749,58 @@ footer h5 {
     font-size: 15px;
   }
 
+}
+
+
+
+#mc_embed_signup .input {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+#mc_embed_signup .input > label {
+  position: absolute;
+  top: 0;
+  left: calc(var(--ipt-size) / 2);
+  line-height: calc(var(--ipt-size) + 2px);
+  font-size: 1em;
+  transition: top 150ms ease-in-out, font-size 150ms ease-in-out, opacity 150ms ease-in-out;
+  pointer-events: none;
+  color: var(--clr-ipt-label);
+  opacity: 0.5;
+}
+#mc_embed_signup .input > input {
+  font-size: 1em;
+  color: var(--clr-body);
+  line-height: var(--ipt-size);
+  background: var(--clr-ipt-bg);
+  width: 100%;
+  padding-left: calc(var(--ipt-size) / 2);
+  padding-right: calc(var(--ipt-size) / 2);
+  border-radius: 100px;
+  border: 1px solid var(--clr-ipt-border);
+}
+#mc_embed_signup .input > input:focus {
+  outline: 0;
+  border-color: var(--clr-ipt-focus);
+}
+#mc_embed_signup .input > input:focus + label, #mc_embed_signup .input > input:not(:placeholder-shown) + label {
+  top: -3.1em;
+  font-size: 0.85em;
+  opacity: 1;
+  color: var(--clr-ipt-focus);
+}
+#mc_embed_signup .input > input::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--clr-ipt-bg);
+  opacity: 1;
+  /* Firefox */
+}
+#mc_embed_signup .input > input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: var(--clr-ipt-bg);
+}
+#mc_embed_signup .input > input::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: var(--clr-ipt-bg);
 }
