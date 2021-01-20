@@ -361,7 +361,7 @@ textarea {
 }
 
 .btn {
-  padding: 10px 40px;
+  padding: 0px 40px;
   height: 60px;
   border-radius: 30px;
   outline: none;
@@ -369,7 +369,7 @@ textarea {
   text-decoration: none;
   font-family: inherit;
   font-size: 100%;
-  line-height: 2.15;
+  line-height: 60px;
   margin: 0;
   display: inline-block;
 }
